@@ -1,0 +1,66 @@
+
+*, *::before, * ::after{
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    background-color: goldenrod;
+    /* This centers our sketch horizontally. */
+    justify-content: center;
+    /* This centers our sketch vertically. */
+    align-items: center;
+    font-family: Impact, Charcoal, sans-serif;
+
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+  }
+  
+  a:hover {
+    color:  hotpink;
+  }
+  
+  
+  .header {
+    position: fixed;
+    width: 100%; 
+    top: 50px; 
+    text-align: center;
+    color:  hotpink;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  li::before  {
+    content: " ";    
+    color: hotpink;
+    font-size: 1.5em;
+  }
+
+  .header h1 {
+    font-size: 60px;
+  }
+  
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    color: white;
+    text-align: center;
+  }
+  
+  
+  canvas {
+    display: block;
+  }
+  
